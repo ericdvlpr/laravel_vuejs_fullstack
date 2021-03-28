@@ -12,6 +12,7 @@
 <body class="antialiased">
     <div id="app">
         <mainApp></mainApp>
+        <router-view></router-view>
     </div>
 </body>
 <script src="{{mix('/js/app.js')}}"></script>
